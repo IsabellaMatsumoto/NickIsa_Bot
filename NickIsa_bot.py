@@ -205,7 +205,7 @@ def main():
                 chat_id = message.get("chat", {}).get("id")
                 text = message.get("text", "").lower()
 
-                print(f"📩 Mensagem recebida: {text} de {chat_id}") 
+                print(f"Mensagem recebida: {text} de {chat_id}") 
 
                 # verifica o que foi enviado
                 if text == "/tabela":
@@ -247,14 +247,13 @@ def main():
                         "Pede o mundo de novo\n\n"
                         "Dá—lhe, dá—lhe, dá—lhe, Mengo\n"
                         "Pra cima deles, Flamengo")
-                elif "botafogo" in text or "fogo" in text:
+                elif "vasco" in text or "gigante" in text:
                     send_message(chat_id,
-                        "E ninguém cala'\n"
-                        "Esse nosso amor\n"
-                        "E é por isso que eu canto assim\n"
-                        "É por ti, Fogo\n\n"
-                        "Fogo-ô-ô-ô\n"
-                        "Fogo-ô-ô-ô")
+                        "Vamos todos cantar de coração\n"
+                        "A cruz de malta é o meu pendão\n"
+                        "Tu tens o nome do heroico português\n"
+                        "Vasco da Gama, a tua fama assim se fez\n\n"
+                        "Vasco! Vasco! Vasco!")
                 else:
                     send_message(chat_id,
                         "<b>Comandos disponíveis:</b>\n"
