@@ -2,7 +2,7 @@ import requests
 import json
 
 # === SEU TOKEN DA API ===
-FOOTBALL_TOKEN = "41a39808a6454c1abe051e924fc92287"
+FOOTBALL_TOKEN = ""
 
 # === URL da API da tabela do Brasileirão ===
 url = "https://api.football-data.org/v4/competitions/BSA/matches"
